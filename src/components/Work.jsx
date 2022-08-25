@@ -25,7 +25,7 @@ className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-ce
     React-Native Application
   </span>
   <div className='pt-8 text-center'>
-    <a href='/'>
+    <a href='https://drive.google.com/file/d/1x2FaOsVhW9r1rb-HU3M3QDUUFFV4L4ds/view?usp=sharing'>
       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
         Demo
       </button>
@@ -48,7 +48,7 @@ className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-ce
     React JS Application
   </span>
   <div className='pt-8 text-center'>
-    <a href='/'>
+    <a href='https://lgimmo.netlify.app/'>
       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
         Demo
       </button>
@@ -72,7 +72,7 @@ className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-ce
     React JS Application
   </span>
   <div className='pt-8 text-center'>
-    <a href='/'>
+    <a href='https://lgtrip.netlify.app/'>
       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
         Demo
       </button>

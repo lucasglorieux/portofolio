@@ -1,7 +1,6 @@
 import React from 'react'
 import Hungry1 from '../assets/t1.png';
 import Immo from '../assets/immoapp.png';
-import Cafe3 from '../assets/cafe3.jpg';
 import Lg from '../assets/lgtrip.png'
 
 const Work = () => {
@@ -86,12 +85,12 @@ className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-ce
   </div>
 </div>
 </div>
-<div
+{/* <div
 style={{ backgroundImage: `url(${Cafe3})` }}
 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
->
-{/* Hover Effects */}
-<div className='opacity-0 group-hover:opacity-100'>
+> */}
+
+{/* <div className='opacity-0 group-hover:opacity-100'>
   <span className='text-2xl font-bold text-white tracking-wider'>
     React JS Application
   </span>
@@ -109,12 +108,12 @@ className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-ce
   </div>
 </div>
 </div>
-{/* Grid Item */}
+
 <div
 style={{ backgroundImage: `url(${Immo})` }}
 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 >
-{/* Hover Effects */}
+
 <div className='opacity-0 group-hover:opacity-100'>
   <span className='text-2xl font-bold text-white tracking-wider'>
     React JS Application
@@ -137,7 +136,7 @@ className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-ce
 style={{ backgroundImage: `url(${Hungry1})` }}
 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div w-100'
 >
-{/* Hover Effects */}
+
 <div className='opacity-0 group-hover:opacity-100'>
   <span className='text-2xl font-bold text-white tracking-wider'>
     React JS Application
@@ -154,8 +153,8 @@ className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-ce
       </button>
     </a>
   </div>
-</div>
-</div>
+</div> */}
+{/* </div> */}
 </div>
 </div>
 </div>

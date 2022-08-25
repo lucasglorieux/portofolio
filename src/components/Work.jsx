@@ -2,7 +2,7 @@ import React from 'react'
 import Hungry1 from '../assets/t1.png';
 import Immo from '../assets/immoapp.png';
 import Cafe3 from '../assets/cafe3.jpg';
-import Lg from '../assets/lgtrip.jpg'
+import Lg from '../assets/lgtrip.png'
 
 const Work = () => {
   return (

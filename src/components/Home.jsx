@@ -10,10 +10,10 @@ const Home = () => {
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-2xl text-[#ac00ff]'>Hi, my name is</p>
-            <h1 className='text-4xl sm:text-7xl font-bold text-[#ced6e0]'>Lucas Glorieux</h1>
+            <h1 className='text-4xl sm:text-7xl font-bold text-[#ced6e0]'>Lucas Glorieux,</h1>
             <h2 className='text-4xl sm:text-7xl font-bold text-[#747d8c]'>I'm a Front-End Developer.</h2>
             <p className='text-[#ced6e0] py-4 max-w-[700px]'>
-                I'm a front-end developer specialized in React & React-Native. I love designing
+                I'm a french front-end developer specialized in React & React-Native. I love designing
                 and make exceptional custom digital experiences for clients. 
                 I'm currently focusing in building responsive Web & Mobile 
                 apllications.

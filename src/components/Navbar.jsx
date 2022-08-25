@@ -3,12 +3,16 @@ import Logo from '../assets/logo.png'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
+import En from '../assets/en.png';
+import Fr from '../assets/fr.png'
 
 const Navbar = () => {
 
 const [showNav, setShowNav] = useState(false)
 const handleClick = () => setShowNav(!showNav)
+
+
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#a4b0be]'>
@@ -83,32 +87,42 @@ const handleClick = () => setShowNav(!showNav)
             <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0e76a8]'>
                  <a className='flex justify-between items-center w-full text-gray-300'
-                  href='/'>
+                  href='https://www.linkedin.com/in/lucas-glorieux-2373061ba/' target="_blank" rel="noopener noreferrer">
                    Linkedin <FaLinkedin size={30}/>
                  </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6e5494]'>
                  <a className='flex justify-between items-center w-full text-gray-300'
-                  href='/'>
+                  href='https://github.com/lucasglorieux' target="_blank" rel="noopener noreferrer">
                    GitHub <FaGithub size={30}/>
                  </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ff6348]'>
-                 <a className='flex justify-between items-center w-full text-gray-300'
-                  href='/'>
+            <Link className='flex justify-between items-center w-full text-gray-300' to="contact" smooth={true} offset={50} duration={1000}>
                    Email <HiOutlineMail size={30}/>
-                 </a>
+                 </Link>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-400 bg-[#57606f]'>
-                 <a className='flex justify-between items-center w-full text-gray-300'
-                  href='/'>
-                   Resume <BsFillPersonLinesFill size={30}/>
-                 </a>
+            <li className='w-[230px] h-[60px] flex justify-between items-center ml-[-170px] hover:ml-[-10px] duration-500 bg-[#57606f]'>
+            
+                 <div className='flex justify-between items-center w-full text-gray-300' >
+                 Resume
+                    <a href='https://drive.google.com/file/d/12GkiQfNw1DFwBQX4O1ygNrK8dqRXZCEH/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+                        <img src={Fr} alt="french flag" style={{width:'40px'}} target="_blank" />
+                    </a>
+                    <a href='https://drive.google.com/file/d/1f352MRCjcwI3DtH2LUjwLO5KyeqyJsAU/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+                    <img src={En} alt="english flag" style={{width:'30px'}} />
+                    </a>
+                    <BsFillPersonLinesFill size={30}/>
+                 </div>
+
             </li>
             </ul>
         </div>
+  
     </div>
   )
 }
 
 export default Navbar
+
+// {PdfFr}

@@ -106,7 +106,7 @@ const handleClick = () => setShowNav(!showNav)
             
                  <div className='flex justify-between items-center w-full text-gray-300' >
                  Resume
-                    <a href='https://drive.google.com/drive/u/1/my-drive' target="_blank" rel="noopener noreferrer">
+                    <a href='https://drive.google.com/file/d/1vabI-_zq5EZ5x_KgIGBm-Zt4aKEQ1q0q/view?usp=sharing' target="_blank" rel="noopener noreferrer">
                         <img src={Fr} alt="french flag" style={{width:'40px'}} target="_blank" />
                     </a>
                     <a href='https://drive.google.com/file/d/1f352MRCjcwI3DtH2LUjwLO5KyeqyJsAU/view?usp=sharing' target="_blank" rel="noopener noreferrer">
